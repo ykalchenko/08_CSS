@@ -69,34 +69,34 @@ h3, p {
   color: #ffffff;
 }
 
+.card__icon-wrapper {
+  transition: .4s;
+}
+
 .card__icon-wrapper:hover {
   background-color: #ffffff;
 }
 
-.card__icon {
-  width: 28px;
-  height: 24px;
-  color: #ffffff;
+svg {
+  transition: .4s;
+  fill: #ffffff;
 }
 
-.dashboard:hover, .settings:hover, .tablet:hover {
+.card__icon-wrapper:hover>svg {
   fill: #2a69a6;
 }
 
 .settings {
   width: 26px;
   height: 26px;
-  fill: #ffffff;
 }
 
 .tablet {
   width: 24px;
   height: 30px;
-  fill: #ffffff;
 }
 
 .dashboard {
   width: 28px;
   height: 24px;
-  fill: #ffffff;
 }
